@@ -92,7 +92,7 @@ body {
 }
 
 .content-function button {
-	font-family: "PlayfairDisplaySC-Bold", cursive;
+	font-family: "Kalam-Light", cursive;
 	font-size: 16px;
 	width: 60px;
 	height: 60px;
@@ -109,14 +109,4 @@ body {
 	position: absolute;
 	height: 128px;
 	margin: 4px 4px 4px 12px;
-}
-
-#zero {
-	position: absolute;
-	width: 136px;
-}
-
-#point {
-	position: absolute;
-	margin: 4px 0 0 156px;
 }

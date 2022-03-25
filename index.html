@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>webCalculator</title>
-    <link rel="shortcut icon" type="image/icon" href="img/icon_3.png">
+    <link rel="shortcut icon" type="image/icon" href="img/icon.png">
 
     <link type="text/css" rel="stylesheet" href="style.css">
     <link type="text/css" rel="stylesheet" href="media.css">
+    <script type="text/javascript" src="var.js" async></script>
     <script type="text/javascript" src="script.js" async></script>
   </head>
   <body>
@@ -39,38 +40,40 @@
         <label>
           <textarea class="display" readonly>0</textarea>
         </label>
-        <div class="content-function"><!-- main-content-a-function-in-the-site-area MCFSA -->
+        <div class="content-function"><!-- main-content-a-functions-in-the-site-area MCFSA -->
           <div>
-            <button>Del</button>
-            <button>last</button>
-            <button>√</button>
+            <button id="del">Del</button>
+            <button id="changed">last</button>
+            <button id="sqrt">√</button>
             <button id="degree">n<sup>&#128386;<sup></button>
           </div>
           <div>
-            <button>/</button>
-            <button>*</button>
-            <button>-</button>
-            <button id="plus">+</button>
+            <button class="function-MCFSA">/</button>
+            <button class="function-MCFSA">*</button>
+            <button class="function-MCFSA">-</button>
+            <button class="function-MCFSA" id="plus">+</button>
           </div>
           <div>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
+            <button class="function-MCFSA">7</button>
+            <button class="function-MCFSA">8</button>
+            <button class="function-MCFSA">9</button>
           </div>
           <div>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
+            <button class="function-MCFSA">4</button>
+            <button class="function-MCFSA">5</button>
+            <button class="function-MCFSA">6</button>
             <button id="equals">=</button>
           </div>
           <div>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
+            <button class="function-MCFSA">1</button>
+            <button class="function-MCFSA">2</button>
+            <button class="function-MCFSA">3</button>
           </div>
           <div>
-            <button id="zero">0</button>
-            <button id="point">.</button>
+            <button class="function-MCFSA">0</button>
+            <button class="function-MCFSA">.</button>
+            <button class="function-MCFSA">(</button>
+            <button class="function-MCFSA">)</button>
           </div>
         </div>
       </div>
