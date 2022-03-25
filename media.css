@@ -1,0 +1,31 @@
+/*@media (max-width: 1000px) {
+	header {
+		padding: 150px 0 700px;
+		font-size: 28px;
+	}
+
+	main {
+		margin: 80px  auto;
+		width: 500px;
+		padding: 0;
+
+		text-align: justify;
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 450px) {
+	header {
+		padding: 150px 0 700px;
+		font-size: 18px;
+	}
+
+	main {
+		margin: 0;
+		width: auto;
+		padding: 20px 30px;
+
+		text-align: justify;
+		font-size: 16px;
+	}
+}

@@ -1,0 +1,59 @@
+@font-face {
+	font-family: "Cinzel-Bold";
+	src: url( files/Cinzel-Bold.ttf );
+}
+
+@font-face {
+	font-family: "Cinzel-Medium";
+	src: url( files/Cinzel-Medium.ttf );
+}
+
+@font-face {
+	font-family: "Cinzel-Regular";
+	src: url( files/Cinzel-Regular.ttf );
+}
+
+@font-face {
+	font-family: "Cinzel-VariableFont_wght";
+	src: url( files/Cinzel-VariableFont_wght.ttf );
+}
+
+@font-face {
+	font-family: "Comfortaa";
+	src:  url( Comfortaa-VariableFont_wght.ttf );
+}
+
+@font-face {
+	font-family: "Kalam-Bold";
+	src: url( files/Kalam-Bold.ttf );
+}
+
+@font-face {
+	font-family: "Kalam-Light";
+	src: url( files/Kalam-Light.ttf );
+}
+
+@font-face {
+	font-family: "Kalam-Regular";
+	src: url( files/Kalam-Regular.ttf );
+}
+
+@font-face {
+	font-family: "PlayfairDisplaySC-Bold";
+	src: url( files/PlayfairDisplaySC-Bold.ttf );
+}
+
+@font-face {
+	font-family: "PlayfairDisplaySC-Italic";
+	src: url( files/PlayfairDisplaySC-Italic.ttf );
+}
+
+@font-face {
+	font-family: "PlayfairDisplaySC-Regular";
+	src: url( files/PlayfairDisplaySC-Regular.ttf );
+}
+
+@font-face {
+	font-family: "SpecialElite-Rugular";
+	src: url( files/SpecialElite-Rugular.ttf );
+}
