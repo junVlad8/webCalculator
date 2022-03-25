@@ -22,6 +22,17 @@ body {
 	text-decoration: none;
 }
 
+.menu-area a:hover,
+.menu-area a:focus {
+	margin: 0px;
+	padding: 4px 8px;
+
+	border-style: solid;
+	border-radius: 12px;
+	border-width: 1px;
+  transition: all 0.1s ease-out;
+}
+
 .logo {
 	font-family: "Cinzel-Bold", cursive;
 	font-size: 24px;
@@ -60,5 +71,52 @@ body {
 .header-content h1 {
 	margin: 0px
 }
-/*
-align-items: center;*/
+
+.content-area {
+	margin: 0 auto;
+	width: 700px;
+
+	font-size: 20px;
+}
+
+.display {
+  font-size: 30px;
+
+  margin: 4px;
+  padding: 10px;
+
+  width: 278px;
+  height: 378px;
+
+  resize: none;
+}
+
+.content-function button {
+	font-family: "PlayfairDisplaySC-Bold", cursive;
+	font-size: 16px;
+	width: 60px;
+	height: 60px;
+
+	margin: 4px;
+}
+
+#degree {
+	position: absolute;
+	margin: 4px 4px 4px 12px;
+}
+
+#plus, #equals {
+	position: absolute;
+	height: 128px;
+	margin: 4px 4px 4px 12px;
+}
+
+#zero {
+	position: absolute;
+	width: 136px;
+}
+
+#point {
+	position: absolute;
+	margin: 4px 0 0 156px;
+}
