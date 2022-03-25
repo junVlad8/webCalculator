@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-GB" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,13 +15,14 @@
     <header>
       <div class="menu-area">
         <div class="logo">
-          <a href="#">Calculator</a>
+          <a href="#test">Calculator</a>
         </div>
         <div>
           <nav>
-            <a href="#">Home</a>
-            <a href="#">Profile (the Create)</a>
-            <a href="#">Other project</a>
+            <a href="#test">Home</a>
+            <a href="#test">About</a><!-- Profile (the Create) -->
+            <a href="#test">Contact Us</a><!-- Other project -->
+            <a href="#test">Links</a>
           </nav>
         </div>
       </div>
@@ -32,8 +33,50 @@
         <div class="overlay"></div>
       </div>
     </header>
-    <main>
-      
+    <main class="content-area">
+      <h2>Calculator</h2>
+      <div style="display: flex;">
+        <label>
+          <textarea class="display" readonly>0</textarea>
+        </label>
+        <div class="content-function"><!-- main-content-a-function-in-the-site-area MCFSA -->
+          <div>
+            <button>Del</button>
+            <button>last</button>
+            <button>√</button>
+            <button id="degree">n<sup>&#128386;<sup></button>
+          </div>
+          <div>
+            <button>/</button>
+            <button>*</button>
+            <button>-</button>
+            <button id="plus">+</button>
+          </div>
+          <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+          </div>
+          <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button id="equals">=</button>
+          </div>
+          <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+          </div>
+          <div>
+            <button id="zero">0</button>
+            <button id="point">.</button>
+          </div>
+        </div>
+      </div>
+      <p id="test">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
     </main>
   </body>
 </html>
